@@ -172,3 +172,26 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Flask-related
+*.log
+*.bak
+*.swp
+
+# Google Teachable Machine (generated files)
+teachable-machine-model/
+
+# IDE or Editor directories
+.vscode/
+.idea/
+
+# System files for MacOS and Windows
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Build output directories
+/dist
+/build
+

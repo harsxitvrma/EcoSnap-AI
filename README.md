@@ -31,12 +31,12 @@ Ecosnap AI solves this problem by:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ecosnap-ai.git
+   git clone https://github.com/harsxitvrma/EcoSnap-AI.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd ecosnap-ai
+   cd EcoSnap-AI
    ```
 
 3. Open the `index.html` file in a browser to run the app locally.
@@ -63,4 +63,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Contact:**  
-Harshit | [Your Email]
+Harshit Verma | harshit.verma.cse.2023@miet.ac.in
+Tanisha Soni | tanisha.soni.cse.2023@miet.ac.in

@@ -1,0 +1,1 @@
+{"tfjsVersion":"1.7.4","tmVersion":"2.4.10","packageVersion":"0.8.4-alpha2","packageName":"@teachablemachine/image","timeStamp":"2025-05-08T15:17:12.746Z","userMetadata":{},"modelName":"ECOSNAP AI","labels":["Plastic","Paper","Metal","Glass","E-waste","Organic waste","Textile","wood","Hazardous waste"],"imageSize":224}

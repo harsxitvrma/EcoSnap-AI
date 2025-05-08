@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDP7dH5__ZLL-2vpE58_Jl6cq7qNZ7OYqo&libraries=places"></script>
+  </head><title>ECOSNAP AI</title>
+  <body>
+    <div class="desktop">
+      <div class="div">
+        <div class="overlap">
+          <div class="map-rectangle">
+            <div id="map"></div>
+          </div>
+          <div>
+            <div></div>
+          </div>
+        </div>
+        <div class="logo">
+          <img src="assets/ECOSNAP_AI_LOGO.png" alt="ECOSNAP AI Logo" aria-label="ECOSNAP AI" title="ECOSNAP AI" />
+        </div>
+        <div class="return-home">
+          <a href="index.html">
+          <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <mask id="mask0_188_125" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+          <rect width="64" height="64" fill="#D9D9D9"/>
+          </mask>
+          <g mask="url(#mask0_188_125)">
+          <path d="M12 55.9999C10.8889 55.9999 9.94444 55.611 9.16667 54.8332C8.38889 54.0555 8 53.111 8 51.9999V46.9332L18.6667 37.4666V55.9999H12ZM21.3333 55.9999V45.3332H42.6667V55.9999H21.3333ZM45.3333 55.9999V34.1332L33.9333 23.9999L42 16.8666L54.6667 28.1332C55.1111 28.5332 55.4444 28.9888 55.6667 29.4999C55.8889 30.011 56 30.5555 56 31.1332V51.9999C56 53.111 55.6111 54.0555 54.8333 54.8332C54.0556 55.611 53.1111 55.9999 52 55.9999H45.3333ZM8 43.3332V31.1332C8 30.5555 8.11111 29.9999 8.33333 29.4666C8.55556 28.9332 8.88889 28.4888 9.33333 28.1332L29.3333 10.3999C29.6889 10.0443 30.1 9.78879 30.5667 9.63324C31.0333 9.47768 31.5111 9.3999 32 9.3999C32.4889 9.3999 32.9667 9.47768 33.4333 9.63324C33.9 9.78879 34.3111 10.0443 34.6667 10.3999L40 15.1332L8 43.3332Z" fill="#1C1B1F"/>
+          </g>
+          </svg>
+        </a>
+          </div>
+
+        <nav class="navbar">
+          <a href="#">FAQs</a>
+          <a href="about.html">About</a>
+          <a
+            href="index.html"
+            style="color: #4b6fff; font-size: 30px; text-decoration: underline"
+            onclick="showMap()"
+            >Map</a
+          >
+          <a href="login.html">Login</a>
+          <a href="#">Help</a>
+        </nav>
+        <div class="overlap-wrapper">
+          <div class="overlap-group">
+            <div class="rectangle-wrapper"><div class="rectangle-3"></div></div>
+            <div class="eco-ai-streamline">
+              <img src="assets/Eco-Ai-2--Streamline-Ux.png.svg" />
+            </div>
+            <div class="frame-4">
+              <div class="rectangle-4"></div>
+              <button id="uploadButton" class="upload" style="background: none; border: none; cursor: pointer;">
+                <svg
+                  class="upload_transition"
+                  width="67"
+                  height="68"
+                  viewBox="0 0 67 68"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <mask
+                    id="mask0_36_157"
+                    style="mask-type: alpha"
+                    maskUnits="userSpaceOnUse"
+                    x="0"
+                    y="0"
+                    width="67"
+                    height="68"
+                  >
+                    <rect y="0.5" width="67" height="67" fill="#D9D9D9" />
+                  </mask>
+                  <g mask="url(#mask0_36_157)">
+                    <path
+                      d="M30.7083 45.1667V22.4146L23.45 29.6729L19.5417 25.625L33.5 11.6667L47.4583 25.625L43.55 29.6729L36.2917 22.4146V45.1667H30.7083ZM16.75 56.3334C15.2146 56.3334 13.9002 55.7867 12.8068 54.6933C11.7134 53.5998 11.1667 52.2854 11.1667 50.75V42.375H16.75V50.75H50.25V42.375H55.8333V50.75C55.8333 52.2854 55.2866 53.5998 54.1932 54.6933C53.0998 55.7867 51.7854 56.3334 50.25 56.3334H16.75Z"
+                      fill="#1C1B1F"
+                    />
+                  </g>
+                </svg>
+              </button>
+              <button
+                class="add-a-photo-wrapper"
+                id="add_file"
+                style="background: none; border: none; cursor: pointer"
+              >
+                <svg
+                  class="add_photo"
+                  width="67"
+                  height="68"
+                  viewBox="0 0 67 68"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_102_30)">
+                    <mask
+                      id="mask0_102_30"
+                      style="mask-type: alpha"
+                      maskUnits="userSpaceOnUse"
+                      x="0"
+                      y="0"
+                      width="67"
+                      height="68"
+                    >
+                      <rect y="0.5" width="67" height="67" fill="#D9D9D9" />
+                    </mask>
+                    <g mask="url(#mask0_102_30)">
+                      <path
+                        d="M8.37502 59.125C6.8396 59.125 5.52519 58.5783 4.43179 57.4849C3.33839 56.3915 2.79169 55.0771 2.79169 53.5417V20.0417C2.79169 18.5063 3.33839 17.1919 4.43179 16.0985C5.52519 15.0051 6.8396 14.4584 8.37502 14.4584H17.1688L22.3334 8.87502H39.0834V14.4584H24.7761L19.6813 20.0417H8.37502V53.5417H53.0417V28.4167H58.625V53.5417C58.625 55.0771 58.0783 56.3915 56.9849 57.4849C55.8915 58.5783 54.5771 59.125 53.0417 59.125H8.37502ZM53.0417 20.0417V14.4584H47.4584V8.87502H53.0417V3.29169H58.625V8.87502H64.2084V14.4584H58.625V20.0417H53.0417ZM30.7084 49.3542C34.1979 49.3542 37.1641 48.1328 39.6068 45.6901C42.0495 43.2474 43.2709 40.2813 43.2709 36.7917C43.2709 33.3021 42.0495 30.336 39.6068 27.8932C37.1641 25.4505 34.1979 24.2292 30.7084 24.2292C27.2188 24.2292 24.2526 25.4505 21.8099 27.8932C19.3672 30.336 18.1459 33.3021 18.1459 36.7917C18.1459 40.2813 19.3672 43.2474 21.8099 45.6901C24.2526 48.1328 27.2188 49.3542 30.7084 49.3542ZM30.7084 43.7709C28.7542 43.7709 27.1025 43.0962 25.7531 41.7469C24.4038 40.3976 23.7292 38.7459 23.7292 36.7917C23.7292 34.8375 24.4038 33.1858 25.7531 31.8365C27.1025 30.4872 28.7542 29.8125 30.7084 29.8125C32.6625 29.8125 34.3143 30.4872 35.6636 31.8365C37.0129 33.1858 37.6875 34.8375 37.6875 36.7917C37.6875 38.7459 37.0129 40.3976 35.6636 41.7469C34.3143 43.0962 32.6625 43.7709 30.7084 43.7709Z"
+                        fill="#1C1B1F"
+                      />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_102_30">
+                      <rect
+                        width="67"
+                        height="67"
+                        fill="white"
+                        transform="translate(0 0.5)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </button>
+              <div class="popup" id="popupMenu" style="display: none">
+                <button onclick="openCamera()">Camera</button>
+                <button onclick="openGallery()">Gallery</button>
+                <button onclick="openFile()">File</button>
+              </div>
+              <div id="fileInfo" class="selected_file" style="display: none; background: #f0f0f0; border-radius: 8px; padding: 10px;">
+                <img id="filePreview" src="" alt="Preview" style="width: 100px; height: auto; border-radius: 6px; margin-bottom: 8px;" />
+                <p id="fileDetails"></p>
+                <button id="cancelFile" class="cancle_button">Cancel</button>
+              </div>
+            </div>
+            <!-- Hidden file inputs -->
+            <input
+              type="file"
+              accept="image/*"
+              capture="environment"
+              id="cameraInput"
+              style="display: none"
+            />
+            <input
+              type="file"
+              accept="image/*"
+              id="galleryInput"
+              style="display: none"
+            />
+            <input type="file" id="fileInput" style="display: none" />
+            <div class="component-wrapper">
+              <div class="component">
+                <div class="overlap-group-wrapper">
+                  <div class="overlap-group-2">
+                    <div class="img-hover-swap">
+                      <img
+                        class="default-img"
+                        src="assets/Group_4(upload_section).svg"
+                        alt="Default Image"
+                      />
+                      <div id="dropArea">
+                        <img
+                          class="hover-img"
+                          src="assets/Group3(upload_transition).svg"
+                          alt="Hover Image"
+                        />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+  <script>
+    let map;
+  
+    function initMap(position) {
+      let center;
+  
+      if (position) {
+        center = {
+          lat: position.coords.latitude,
+          lng: position.coords.longitude,
+        };
+      } else {
+        // Default location if user denies location access
+        center = { lat: 28.973171757553597, lng: 77.64094528647557 };    //miet_location
+      }
+  
+      map = new google.maps.Map(document.getElementById("map"), {
+        center: center,
+        zoom: 12,
+      });
+  
+      const marker = new google.maps.Marker({
+        position: center,
+        map: map,
+        title: position ? "You are here!" : "EcoSnap AI Center (Default)",
+      });
+    }
+  
+    function showMap() {
+      document.getElementById("map").style.display = "block";
+  
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+          (position) => {
+            initMap(position); // User allowed location
+          },
+          (error) => {
+            console.error("Error getting location:", error);
+            initMap(null); // User denied location or error
+          }
+        );
+      } else {
+        console.error("Geolocation not supported by this browser.");
+        initMap(null);
+      }
+    }
+  
+    window.onload = showMap;
+  </script>
+  
+</html>

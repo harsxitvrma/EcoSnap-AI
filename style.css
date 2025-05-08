@@ -1,0 +1,1053 @@
+@import url("https://fonts.googleapis.com/css2?family=Jaro:opsz@10..48&display=swap");
+.desktop {
+  background-color: #3f434a;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .div {
+  background-color: #3f434a;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  justify-content: center;
+}
+
+.desktop .overlap {
+  position: absolute;
+  width: 816px;
+  height: 738px;
+  top: 221px;
+  left: 558px;
+}
+
+.desktop .frame {
+  display: flex;
+  flex-direction: column;
+  width: 816px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.desktop .rectangle {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 718px;
+  background-color: #d2f2ff;
+  border-radius: 20px;
+}
+
+.desktop .map-rectangle {
+  width: 100%;
+  height: 718px;
+  border: 5px solid #539dff; /* Green border, you can change color */
+  border-radius: 20px; /* Rounded corners, optional */
+  overflow: hidden; /* Keep map inside borders */
+  margin: 20px auto; /* Center it horizontally */
+  position: relative;
+  background-color: #d2f2ff;
+  bottom: 1%;
+}
+
+.desktop .don-t-know-what-to {
+  position: absolute;
+  width: 617px;
+  top: 162px;
+  left: 99px;
+  font-family: "Jaro-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.desktop .text-wrapper {
+  color: #000000;
+  letter-spacing: 0;
+  font-family: "Jaro", sans-serif;
+}
+
+.desktop .span {
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.desktop .text-wrapper-2 {
+  font-family: "Poppins", sans-serif;
+  color: #0f00b0;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+
+.desktop .frame-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 13px;
+  position: absolute;
+  top: 52px;
+  left: 120px;
+}
+
+.desktop .camera-streamline {
+  position: relative;
+  width: 83px;
+  height: 80px;
+  background-image: url(assets/Camera-1--Streamline-Ux.png.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.desktop .text-wrapper-3 {
+  position: relative;
+  width: 378px;
+  height: 77px;
+  -webkit-text-stroke: 1px #000000;
+  font-family: "Jaro", sans-serif;
+  font-weight: 400;
+  color: #6d80fb;
+  font-size: 48px;
+  letter-spacing: 2;
+  line-height: normal;
+}
+
+.desktop .recycle-streamline {
+  position: relative;
+  width: 93.9px;
+  height: 89.27px;
+  background-image: url(assets/Recycle-4--Streamline-Brooklyn.png.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.desktop .frame-3 {
+  display: flex;
+  width: 400px;
+  height: 67px;
+  align-items: center;
+  gap: 4px;
+  padding: 1px 6px;
+  position: absolute;
+  top: 622px;
+  left: 208px;
+  box-shadow: 0px 4px 4px #00000040;
+  border-radius: 20px;
+}
+
+.desktop .rectangle-2 {
+  position: absolute;
+  width: 400px;
+  height: 67px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.desktop .img {
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+
+.desktop .double-arrow {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.desktop .camera-lens {
+  display: flex;
+  flex-direction: column;
+  width: 337px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 20px 61px;
+  position: absolute;
+  top: 90px;
+  left: 108px;
+}
+
+.desktop .camera-lens-2 {
+  position: relative;
+  width: 69px;
+  height: 44px;
+  object-fit: cover;
+}
+
+.desktop .EC-SNAP-AI {
+  position: absolute;
+  width: 337px;
+  top: -1px;
+  left: 0;
+  font-family: "Jaro-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-4 {
+  color: #ffffff;
+}
+
+.desktop .text-wrapper-5 {
+  color: #6d80fb;
+}
+
+.desktop .group {
+  position: absolute;
+  width: 689px;
+  height: 64px;
+  top: 88px;
+  left: 675px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 6px 4px #00000040;
+}
+
+.desktop .FA-qs {
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  top: 17px;
+  left: 55px;
+}
+
+.desktop .text-wrapper-6 {
+  position: absolute;
+  width: 50px;
+  top: -1px;
+  left: 0;
+  font-family: "Jaro-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .about {
+  position: absolute;
+  width: 60px;
+  height: 25px;
+  top: 16px;
+  left: 176px;
+}
+
+.desktop .text-wrapper-7 {
+  position: absolute;
+  width: 60px;
+  top: -1px;
+  left: 0;
+  font-family: "Jaro-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .map {
+  position: absolute;
+  width: 47px;
+  height: 24px;
+  top: 16px;
+  left: 307px;
+}
+
+.desktop .text-wrapper-8 {
+  position: absolute;
+  width: 47px;
+  top: -1px;
+  left: 0;
+  font-family: "Jaro-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .login {
+  position: absolute;
+  width: 55px;
+  height: 25px;
+  top: 17px;
+  left: 425px;
+}
+
+.desktop .text-wrapper-9 {
+  position: absolute;
+  width: 55px;
+  top: -1px;
+  left: 0;
+  font-family: "Jaro-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-10 {
+  font-family: "Poppins", sans-serif;
+}
+.desktop .help {
+  position: absolute;
+  width: 50px;
+  height: 27px;
+  top: 17px;
+  left: 551px;
+}
+
+.desktop .overlap-wrapper {
+  position: absolute;
+  width: 416px;
+  height: 738px;
+  top: 221px;
+  left: 69px;
+}
+
+.desktop .overlap-group {
+  position: relative;
+  height: 738px;
+}
+
+.desktop .rectangle-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.desktop .rectangle-3 {
+  position: relative;
+  width: 396px;
+  height: 718px;
+  background-color: #bfef97;
+  border-radius: 20px;
+}
+
+.desktop .eco-ai-streamline {
+  position: absolute;
+  width: 276px;
+  height: 276px;
+  top: 332px;
+  left: 73px;
+  background-image: url(./img/eco-ai-2-streamline-ux-png.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.desktop .frame-4 {
+  display: flex;
+  width: 341px;
+  height: 88px;
+  align-items: center;
+  gap: 177px;
+  padding: 11px 9px;
+  position: absolute;
+  top: 612px;
+  left: 37px;
+  box-shadow: 0px 4px 4px #00000040;
+  border-radius: 30px;
+}
+
+.desktop .rectangle-4 {
+  position: absolute;
+  width: 341px;
+  height: 88px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+/* hover effect on the div itself */
+.desktop .rectangle-4:hover {
+  background: linear-gradient(135deg, #74bfd5, #2675b6);
+  box-shadow: 0 0 20px rgba(33, 147, 176, 0.6);
+  transform: scale(1.03); /* slightly grow the element */
+}
+
+.desktop .upload {
+  position: relative;
+  width: 67px;
+  height: 67px;
+  margin-top: -0.5px;
+  margin-bottom: -0.5px;
+}
+
+.desktop .add-a-photo-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -0.5px;
+  margin-bottom: -0.5px;
+}
+
+.desktop .add-a-photo {
+  position: relative;
+  width: 67px;
+  height: 67px;
+}
+
+.desktop .component-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 297px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 48px;
+  left: 59px;
+}
+
+.desktop .component {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.desktop .overlap-group-wrapper {
+  position: relative;
+  width: 277px;
+  height: 250px;
+}
+
+.desktop .overlap-group-2 {
+  position: relative;
+  width: 281px;
+  height: 254px;
+  top: -2px;
+  left: -2px;
+  background-image: url(./img/rectangle-3.svg);
+  background-size: 100% 100%;
+}
+.img-hover-swap {
+  position: relative;
+  width: 277px;
+  height: 250px;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.img-hover-swap:hover {
+  height: 280px; /* increase only height on hover */
+}
+
+.img-hover-swap img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 277px;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.img-hover-swap .hover-img {
+  opacity: 0;
+  z-index: 2;
+}
+
+.img-hover-swap .default-img {
+  opacity: 1;
+  z-index: 1;
+}
+
+.img-hover-swap:hover .hover-img {
+  opacity: 1;
+}
+
+.img-hover-swap:hover .default-img {
+  opacity: 0;
+}
+
+.img-hover-swap:hover img {
+  transform: scaleY(1); /* Scale height downward */
+  transform-origin: top; /* Make sure scaling happens from the top */
+}
+
+.desktop .text-wrapper-10 {
+  position: absolute;
+  width: 207px;
+  top: 188px;
+  left: 37px;
+  font-family: "Jaro-Regular", Helvetica;
+  font-weight: 400;
+  color: #a19898;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .delete {
+  position: absolute;
+  width: 118px;
+  height: 118px;
+  top: 63px;
+  left: 85px;
+}
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #35383f;
+  font-family: "Segoe UI", sans-serif;
+  color: #000;
+  
+}
+
+/* Logo */
+.logo {
+  position: fixed; /* distance from top */
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  background: linear-gradient(
+    145deg,
+    #1c43e0d5,
+    #741eed,
+    #6601ebb3
+  ); /* match your website background */
+  animation: glowBackground 20s ease infinite;
+  padding: 5px 0; /* optional: to give a little breathing space */
+}
+
+.logo::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit; /* same gradient */
+  filter: blur(25px); /* this adds soft glowing blur */
+  z-index: -1;
+}
+
+@keyframes glowBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.logo img {
+  width: 337px;
+  height: 84px;
+  object-fit: contain;
+}
+
+/* Navbar */
+
+.navbar {
+  width: 689px;
+  height: 64px;
+  font-family: "Jaro", sans-serif;
+  font-size: 24px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 120px auto 20px auto; /* push navbar lower to make space for fixed logo */
+  box-shadow: 0px 4px 4px #00000040;
+  transition: all 0.3s ease;
+  z-index: 2;
+  position: relative;
+}
+
+/* Navbar Text with Transition */
+.navbar a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #4b6fff;
+  font-size: 30px;
+}
+
+.return-home {
+  width: 112px;
+  height: 64px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 120px; /* Adjust as per your layout */
+  top: 120px;    /* Aligns with navbar */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 10;
+}
+
+.return-home:hover {
+  transform: scale(1.1);
+  background-color: rgb(35, 237, 28);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+.sign-up {
+  width: 318px;
+  height: 93px;
+  font-family: "Jaro", sans-serif;
+  font-size: 42px;
+  color: #5918ff;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 120px auto 20px auto; /* push navbar lower to make space for fixed logo */
+  box-shadow: 0px 4px 4px #00000040;
+  transition: all 0.3s ease;
+  z-index: 2;
+  position: relative;
+}
+
+
+
+/* Main layout container */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px; /* Controls spacing between green and blue boxes */
+  padding: 0 40px;
+}
+
+/* Upload Section (Green Box) */
+.upload-box {
+  background-color: #c6f3a8;
+  width: 320px;
+  min-height: 500px;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Info Section (Blue Box) */
+.info-box {
+  background-color: #d4f0ff;
+  flex: 1;
+  min-height: 500px;
+  border-radius: 20px;
+  padding: 30px 40px;
+}
+
+/* Responsive adjustments */
+ @media screen and (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar {
+    width: 90%;
+  }
+
+  .logo img {
+    width: 90%;
+    height: auto;
+  }
+
+  .return-home{
+    display: none;
+  }
+} 
+
+.add_photo path {
+  fill: black;
+  transition: fill 0.3s ease;
+}
+
+.add_photo:hover path {
+  fill: rgba(42, 76, 243, 0.959);
+}
+
+.upload_transition path {
+  fill: black;
+  transition: fill 0.3s ease;
+}
+
+.upload_transition:hover path {
+  fill: rgba(42, 76, 243, 0.959);
+}
+
+.svg-animated-1 {
+  width: 60px;
+  height: 60px;
+  transition: width 0.4s ease, height 0.4s ease, fill 0.4s ease;
+}
+.svg-animated-2 {
+  width: 60px;
+  height: 60px;
+  transition: width 0.4s ease, height 0.4s ease, fill 0.4s ease;
+}
+.svg-animated-3 {
+  width: 60px;
+  height: 60px;
+  transition: width 0.4s ease, height 0.4s ease, fill 0.4s ease;
+}
+.svg-animated-4 {
+  width: 60px;
+  height: 60px;
+  transition: width 0.4s ease, height 0.4s ease, fill 0.4s ease;
+}
+
+.expandable-icon:hover .svg-animated-1 {
+  width: 80px;
+  height: 80px;
+}
+
+.expandable-icon:hover .svg-animated-1 path {
+  fill: #3498db;
+}
+.expandable-icon:hover .svg-animated-2 {
+  width: 80px;
+  height: 80px;
+}
+
+.expandable-icon:hover .svg-animated-2 path {
+  fill: #3498db;
+}
+.expandable-icon:hover .svg-animated-3 {
+  width: 80px;
+  height: 80px;
+}
+
+.expandable-icon:hover .svg-animated-3 path {
+  fill: #3498db;
+}
+.expandable-icon:hover .svg-animated-4 {
+  width: 80px;
+  height: 80px;
+}
+
+.expandable-icon:hover .svg-animated-4 path {
+  fill: #3498db;
+}
+
+.icon-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+/* login style */
+
+.desktop .div-2 {
+  background-image: url(assets/background_image/Background\ image\ website.PNG);
+  background-size: cover; /* Makes it cover the whole area */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repeating */
+  background-attachment: fixed;
+  width: 100%;
+  height: 1024px;
+  position: relative;
+  justify-content: center;
+}
+
+.div-2 .box {
+  width: 1000px;
+  height: 738px;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: flex;
+  justify-content: center; /* Centers .group horizontally */
+  align-items: center;     /* Centers .group vertically */
+}
+
+.box .group {
+  width: 1000px; /* changed from 1315px */
+  height: 738px;
+  top: 0;
+  left: 0;
+  background-color: #3f434a;
+  border-radius: 20px;
+  position: relative;  /* Ensure it's positioned correctly */
+}
+
+.box .overlap-2 {
+  width: 100%;
+  height: 100%;
+  top: 10px;
+  left: 8px;
+  background-color: #d2f2ff;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.login-rectangle {
+  position: absolute;
+  width: 826px;
+  height: 475px;
+  background-color: #3f434a;
+  border-radius: 20px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers .login-rectangle */
+  display: flex;
+  flex-direction: column; /* Aligns content vertically */
+  justify-content: center; /* Vertically centers content inside */
+  align-items: center; /* Horizontally centers content inside */
+}
+
+.box .ecosnap-ai-logo {
+  position: absolute;
+  width: 332px;
+  height: 56px;
+  top: 145px;
+  left: 50%;
+  transform: translateX(-50%); /* Centers logo horizontally */
+  object-fit: cover;
+}
+
+.box .overlap-group-wrapper {
+  position: absolute;
+  width: 491px;
+  height: 64px;
+  top: 250px;
+  left: 50%;
+  transform: translateX(-50%); /* Centers wrapper horizontally */
+}
+
+.box .overlap-group-3 {
+  width: 489px;
+  height: 64px;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 20px;
+  border: 2px solid transparent; /* Start with no visible border */
+  transition: border 0.3s ease; /* Smooth transition */
+}
+
+.box .overlap-group-3:hover,
+.box .overlap-group-3:focus-within {
+  /* focus-within for when input inside is clicked */
+  border: 3px solid rgb(92, 50, 245); /* Blue border on hover or focus */
+}
+
+.box .text-wrapper-12 {
+  position: absolute;
+  width: 100%;
+  top: 20px;
+  left: 21px;
+  font-family: "Jaro", sans-serif;
+  font-weight: 400;
+  color: #323030;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+.box .overlap-wrapper {
+  position: absolute;
+  width: 491px;
+  height: 64px;
+  top: 340px;
+  left: 50%;
+  transform: translateX(-50%); /* Centers wrapper horizontally */
+}
+
+.box .component {
+  position: absolute;
+  width: 195px;
+  height: 59px;
+  top: 453px;
+  left: 50%;
+  transform: translateX(-50%); /* Centers component horizontally */
+  background-color: #d9d9d9;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer; /* Add this so entire area looks clickable */
+  transition: background-color 0.3s;
+}
+
+.box .component .div-3 {
+  font-family: "Jaro", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  background: transparent;
+  pointer-events: none; /* Important! So clicking text triggers the div */
+  user-select: none;
+}
+
+.box .component:hover {
+  background-color: rgb(92, 50, 245);
+}
+
+.box .component:hover .div-3 {
+  color: white;
+}
+
+.box .don-t-have-account {
+  position: absolute;
+  width: 100%;
+  top: 547px;
+  left: 50%;
+  transform: translateX(-17%);  /*Centers text horizontally */
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .forget-password {
+  position: relative;
+  width: 100%;
+  top: 547px;
+  left: 50%;
+  transform: translateX(-7%);  /*Centers text horizontally */
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 4dvh;
+
+}
+.box .span {
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+}
+
+.box .text-wrapper-11 {
+  text-decoration: underline;
+  font-family: "Jaro", sans-serif;
+}
+
+
+.popup {
+  display: none;
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+
+.popup button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  background: #e0e0e0;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.popup button:hover {
+  background: #1787e8;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.selected_file {
+  display: none;
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  border-radius: 50px;
+  padding: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+
+.cancle_button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  background: #e0e0e0;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.cancle_button:hover {
+  background: #1787e8;
+}

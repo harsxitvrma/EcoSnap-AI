@@ -31,7 +31,7 @@ Ecosnap AI solves this problem by:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/harsxitvrma/ecosnap-ai.git
+   git clone https://github.com/harsxitvrma/EcoSnap-AI.git
    ```
 
 2. Navigate to the project directory:
@@ -63,4 +63,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Contact:**  
-Harshit | [Your Email]
+Harshit | harshit.verma.cse.2023@miet.ac.in
+Tanisha | tanisha.soni.cse.2023@miet.ac.in

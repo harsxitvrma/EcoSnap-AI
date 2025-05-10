@@ -64,7 +64,7 @@ document.getElementById("uploadButton").addEventListener("click", () => {
   const formData = new FormData();
   formData.append("image", selectedFile);
 
-  fetch("http://127.0.0.1:5000/upload", {
+  fetch("http://127.0.0.1:10000/upload", {
     method: "POST",
     body: formData
   })
